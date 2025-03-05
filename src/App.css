@@ -1,0 +1,52 @@
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+.input-group {
+  margin: 10px 0;
+}
+.result {
+  margin-top: 20px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+select {
+  margin: 10px 0;
+  padding: 5px;
+  width: 200px;
+}
+#weekDates {
+  font-size: 0.9em;
+  color: #666;
+}
+.add-week {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+#bonusHistory {
+  margin-top: 20px;
+}
+#bonusHistoryTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+#bonusHistoryTable th, #bonusHistoryTable td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+img {
+  max-width: 300px;
+  margin-top: 10px;
+}
+.button-group {
+  display: flex;
+  gap: 10px;
+}
