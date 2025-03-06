@@ -13,7 +13,7 @@ const App = () => {
   const [showHistory, setShowHistory] = useState(false);
   const [image, setImage] = useState(null);
 
-  const API_URL = 'https://bike-tracker-backend.vercel.app/api/data'; // 替换为后端部署 URL
+  const API_URL = 'bike-tracker-backend.vercel.app/api'; // 替换为后端部署 URL
 
   const fetchData = useCallback(async () => {
     try {
